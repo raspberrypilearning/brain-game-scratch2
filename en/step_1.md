@@ -1,58 +1,61 @@
+--- no-print ---
+
+This is the **Scratch 2** version of the project. There is also a [Scratch 3 version of the project](https://projects.raspberrypi.org/en/projects/brain-game).
+
+--- /no-print ---
+
 ## Introduction
 
-Add project description here. What will learners be making?
+In this project you'll create a maths quiz game in which the player has 30 seconds to give as many correct answers as possible.
 
 ### What you will make
-
 --- no-print ---
-Add instructions for using the embedded content here.
+Click the button to start. Type in the answer to the question, and then press the <kbd>Enter</kbd> key.
 
 <div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/250234955/?autostart=false" frameborder="0"></iframe>
+  <img src="images/brain-final.png">
 </div>
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Brain Game](images/brain-final.png)
 --- /print-only ---
+
+--- collapse ---
+---
+title: What you will learn
+---
++ How to use broadcasts in Scratch
++ How to create and use a custom Scratch block
+
+--- /collapse ---
 
 --- collapse ---
 ---
 title: What you will need
 ---
 ### Hardware
-
-+ Describe hardware here
++ A computer capable of running Scratch 2.0
 
 ### Software
-
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
++ Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
 
 ### Downloads
 
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
++ [Online completed Scratch 2 project](http://scratch.mit.edu/projects/250234955/#editor){:target="_blank"}
 
 --- /collapse ---
 
---- collapse ---
----
-title: What you will learn
----
-
-+ Two or three learning objectives
-+ ...should go here
-
---- /collapse ---
 
 --- collapse ---
 ---
-title: Additional information for educators
+title: Additional notes for educators
 ---
+--- no-print ---
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game-scratch2/print).
+--- /no-print ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
-
-[Here is a link to the resources for this project](http://rpf.io/project-name-go).
+Find the [resources for this project here](http://rpf.io/p/brain-game-go){:target="_blank"}.
 
 --- /collapse ---
