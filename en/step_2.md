@@ -50,15 +50,15 @@ Add code to `ask`{:class="blocksensing"} the player for the answer, and then `sa
 ![screenshot](images/giga-sprite.png)
 
 ```blocks
-	when flag clicked
-	set [number 1 v] to (pick random (2) to (12))
-	set [number 2 v] to (pick random (2) to (12))
-	+ ask (join (number 1)(join [ x ] (number 2))) and wait
-	+ if <(answer) = ((number 1)*(number 2))> then
-		+ say [yes! :)] for (2) secs
-	+ else
-		+ say [no :(] for (2) secs
-	+ end
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
++ ask (join (number 1)(join [ x ] (number 2))) and wait
++ if <(answer) = ((number 1)*(number 2))> then
++ say [yes! :)] for (2) secs
++ else
++ say [no :(] for (2) secs
++ end
 ```
 --- /task ---
 
