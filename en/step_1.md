@@ -39,11 +39,11 @@ title: What you will need
 + A computer capable of running Scratch 2.0
 
 ### Software
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
++ Scratch 2.0 [offline](http://rpf.io/scratchoff){:target="_blank"}
 
 ### Downloads
 
-+ [Online completed Scratch 2 project](http://scratch.mit.edu/projects/250234955/#editor){:target="_blank"}
++ [Completed Scratch 2 project](http://rpf.io/p/en/brain-game-get){:target="_blank"}.
 
 --- /collapse ---
 
@@ -56,6 +56,6 @@ title: Additional notes for educators
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game-scratch2/print).
 --- /no-print ---
 
-Find the [resources for this project here](http://rpf.io/p/brain-game-go){:target="_blank"}.
+Find the [resources for this project here](http://rpf.io/p/en/brain-game-go){:target="_blank"}.
 
 --- /collapse ---
