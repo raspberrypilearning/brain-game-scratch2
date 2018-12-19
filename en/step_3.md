@@ -16,34 +16,11 @@ Then add code to count `time`{:class="blockdata"} down to 0 within 30 seconds. T
 --- hint ---
 Here are the blocks you need:
 
-```blocks
-repeat until < >
-
-end
-
-wait (1) secs
-
-change [time v] by (1)
-
-(time)
-
-when flag clicked
-
-<() = ()>
-
-set [time v] to [0]
-```
+![blocks_1545216318_730037](images/blocks_1545216318_730037.png)
 --- /hint ---
 --- hint ---
 Here is the what your new code should look like:
-```blocks
-when flag clicked
-set [time v] to [30]
-repeat until <(time) = (0)>
-    wait (1) secs
-    change [time v] by (-1)
-end
-```
+![blocks_1545216319_8139083](images/blocks_1545216319_8139083.png)
 --- /hint ---
 --- /hints ---
 
@@ -55,9 +32,7 @@ Create a `broadcast`{:class="blockcontrol"} that sends the message 'end'. A `bro
 
 ![Stage sprite](images/stage-sprite.png)
 
-```blocks
-    broadcast [end v]
-```
+![blocks_1545216320_9134097](images/blocks_1545216320_9134097.png)
 --- /task ---
 
 --- task ---
@@ -65,10 +40,7 @@ Select your character sprite and add some code so that the sprite `stops the oth
 
 ![Giga sprite](images/giga-sprite.png)
 
-```blocks
-    when I receive [end v]
-    stop [other scripts in sprite v]
-```
+![blocks_1545216321_9757888](images/blocks_1545216321_9757888.png)
 --- /task ---
 
 --- task ---

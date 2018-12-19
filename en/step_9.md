@@ -3,12 +3,4 @@ Can you change your game so that the player, instead of answering as many questi
 
 To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
-```blocks
-	when I receive [start v]
-	set [time v] to (30)
-	repeat until <(time) = [0]>
-		wait (1) secs
-		change [time v] by (-1)
-	end
-	broadcast [end v]
-```
+![blocks_1545216335_1177838](images/blocks_1545216335_1177838.png)
