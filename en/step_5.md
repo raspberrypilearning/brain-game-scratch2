@@ -41,6 +41,7 @@ Select your character sprite and, in its code section, replace the `when flag cl
 
 ```blocks
 - when flag clicked
+
 + when I receive [start v]
 set [number 1 v] to (pick random (2) to (12))
 set [number 2 v] to (pick random (2) to (12))
