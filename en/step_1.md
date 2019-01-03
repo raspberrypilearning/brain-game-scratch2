@@ -52,6 +52,6 @@ title: Additional notes for educators
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/brain-game-scratch2/print).
 --- /no-print ---
 
-Find the [solution for this project here](http://rpf.io/p/en/brain-game-scratch2-go){:target="_blank"}.
+Find the [solution for this project here](http://rpf.io/p/en/brain-game-scratch2-get){:target="_blank"}.
 
 --- /collapse ---

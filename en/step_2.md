@@ -32,7 +32,7 @@ Add code to your character sprite to set both of the `variables`{:class="blockda
 
 ![screenshot](images/giga-sprite.png)
 
-![blocks_1545216314_3080087](images/blocks_1545216314_3080087.png)
+![blocks_1546522254_2720623](images/blocks_1546522254_2720623.png)
 
 --- /task ---
 
@@ -41,7 +41,7 @@ Add code to `ask`{:class="blocksensing"} the player for the answer, and then `sa
 
 ![screenshot](images/giga-sprite.png)
 
-![blocks_1545216315_3835804](images/blocks_1545216315_3835804.png)
+![blocks_1546522255_8593645](images/blocks_1546522255_8593645.png)
 --- /task ---
 
 --- task ---
@@ -63,11 +63,11 @@ You need to add a `forever`{:class="blockcontrol"} block, and put all of the cod
 --- hint ---
 Here is the block you need:
 
-![blocks_1545216316_52017](images/blocks_1545216316_52017.png)
+![blocks_1546522257_464972](images/blocks_1546522257_464972.png)
 --- /hint ---
 --- hint ---
 Here is what your code should look like:
-![blocks_1545216317_597706](images/blocks_1545216317_597706.png)
+![blocks_1546522259_067407](images/blocks_1546522259_067407.png)
 --- /hint ---
 --- /hints ---
 

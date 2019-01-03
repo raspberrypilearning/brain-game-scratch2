@@ -16,7 +16,7 @@ Change your character sprite's code so that, instead of saying something to the 
 
 ![Character sprite](images/character-sprite.png)
 
-![blocks_1545216328_5271442](images/blocks_1545216328_5271442.png)
+![blocks_1546522275_273708](images/blocks_1546522275_273708.png)
 
 --- /task ---
 
@@ -26,7 +26,7 @@ Now you can use these messages to `show`{:class="blocklooks"} the 'tick' or 'cro
 
 ![Result sprite](images/result-sprite.png)
 
-![blocks_1545216329_614657](images/blocks_1545216329_614657.png)
+![blocks_1546522276_925744](images/blocks_1546522276_925744.png)
 
 --- /task ---
 
@@ -54,7 +54,7 @@ Move the code to `show`{:class="blocklooks"} and `hide`{:class="blocklooks"} the
 
 ![Result sprite](images/result-sprite.png)
 
-![blocks_1545216330_7181814](images/blocks_1545216330_7181814.png)
+![blocks_1546522278_5630958](images/blocks_1546522278_5630958.png)
 --- /task ---
 
 --- task ---
@@ -64,7 +64,7 @@ Then add the `animate`{:class="blockmoreblocks"} block below both of the `switch
 
 ![Result sprite](images/result-sprite.png)
 
-![blocks_1545216331_7868505](images/blocks_1545216331_7868505.png)
+![blocks_1546522280_1253438](images/blocks_1546522280_1253438.png)
 
 --- /task ---
 
@@ -81,7 +81,7 @@ Instead of `showing`{:class="blocklooks"} and `hiding`{:class="blocklooks"} the 
 
 ![Result sprite](images/result-sprite.png)
 
-![blocks_1545216332_8959036](images/blocks_1545216332_8959036.png)
+![blocks_1546522281_7313058](images/blocks_1546522281_7313058.png)
 --- /task ---
 
 Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:

@@ -16,11 +16,11 @@ Then add code to count `time`{:class="blockdata"} down to 0 within 30 seconds. T
 --- hint ---
 Here are the blocks you need:
 
-![blocks_1545216318_730037](images/blocks_1545216318_730037.png)
+![blocks_1546522260_7226672](images/blocks_1546522260_7226672.png)
 --- /hint ---
 --- hint ---
 Here is the what your new code should look like:
-![blocks_1545216319_8139083](images/blocks_1545216319_8139083.png)
+![blocks_1546522262_3168461](images/blocks_1546522262_3168461.png)
 --- /hint ---
 --- /hints ---
 
@@ -32,7 +32,7 @@ Create a `broadcast`{:class="blockcontrol"} that sends the message 'end'. A `bro
 
 ![Stage sprite](images/stage-sprite.png)
 
-![blocks_1545216320_9134097](images/blocks_1545216320_9134097.png)
+![blocks_1546522263_9561706](images/blocks_1546522263_9561706.png)
 --- /task ---
 
 --- task ---
@@ -40,7 +40,7 @@ Select your character sprite and add some code so that the sprite `stops the oth
 
 ![Giga sprite](images/giga-sprite.png)
 
-![blocks_1545216321_9757888](images/blocks_1545216321_9757888.png)
+![blocks_1546522265_5220568](images/blocks_1546522265_5220568.png)
 --- /task ---
 
 --- task ---

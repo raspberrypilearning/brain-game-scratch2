@@ -16,7 +16,7 @@ Add this code to your button sprite:
 
 ![Button sprite](images/button-sprite.png)
 
-![blocks_1545216323_0662587](images/blocks_1545216323_0662587.png)
+![blocks_1546522267_1124165](images/blocks_1546522267_1124165.png)
 
 
 --- /task ---
@@ -32,7 +32,7 @@ Select your character sprite and, in its code section, replace the `when flag cl
 
 ![Character sprite](images/giga-sprite.png)
 
-![blocks_1545216324_1560566](images/blocks_1545216324_1560566.png)
+![blocks_1546522268_7385583](images/blocks_1546522268_7385583.png)
 --- /task ---
 
 --- task ---
@@ -56,7 +56,7 @@ Add code to your button sprite so that the button shows again at the end of each
 
 ![Button sprite](images/button-sprite.png)
 
-![blocks_1545216325_255869](images/blocks_1545216325_255869.png)
+![blocks_1546522270_5070388](images/blocks_1546522270_5070388.png)
 --- /task ---
 
 --- task ---
@@ -67,7 +67,7 @@ To test the game more quickly, you can change the value of `time`{:class="blockd
 
 ![Stage](images/stage-sprite.png)
 
-![blocks_1545216326_3517475](images/blocks_1545216326_3517475.png)
+![blocks_1546522272_0693989](images/blocks_1546522272_0693989.png)
 
 --- /task ---
 
@@ -76,7 +76,7 @@ You can change how the button looks when the mouse pointer hovers over it.
 
 ![Button](images/button-sprite.png)
 
-![blocks_1545216327_4054544](images/blocks_1545216327_4054544.png)
+![blocks_1546522273_6867404](images/blocks_1546522273_6867404.png)
 
 ![screenshot](images/brain-fisheye.png)
 --- /task ---

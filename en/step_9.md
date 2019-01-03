@@ -3,4 +3,4 @@ Can you change your game so that the player, instead of answering as many questi
 
 To make this change, you only need to change your timer code. Can you see which blocks need to be different?
 
-![blocks_1545216335_1177838](images/blocks_1545216335_1177838.png)
+![blocks_1546522284_9388056](images/blocks_1546522284_9388056.png)
