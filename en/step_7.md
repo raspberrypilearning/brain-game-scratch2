@@ -16,7 +16,15 @@ Change your character sprite's code so that, instead of saying something to the 
 
 ![Character sprite](images/character-sprite.png)
 
-![blocks_1546522275_273708](images/blocks_1546522275_273708.png)
+```blocks
+if <(answer) = ((number 1)*(number 2))> then
+- say [yes! :)] for (2) secs
++ broadcast [correct v]
+else
+- say [nope :(] for (2) secs
++ broadcast [wrong v]
+end
+```
 
 --- /task ---
 
@@ -26,7 +34,22 @@ Now you can use these messages to `show`{:class="blocklooks"} the 'tick' or 'cro
 
 ![Result sprite](images/result-sprite.png)
 
-![blocks_1546522276_925744](images/blocks_1546522276_925744.png)
+```blocks
+    when I receive [correct v]
+    switch costume to [tick v]
+    show
+    wait (1) secs
+    hide
+
+    when I receive [wrong v]
+    switch costume to [cross v]
+    show
+    wait (1) secs
+    hide
+
+    when flag clicked
+    hide
+```
 
 --- /task ---
 
@@ -54,7 +77,12 @@ Move the code to `show`{:class="blocklooks"} and `hide`{:class="blocklooks"} the
 
 ![Result sprite](images/result-sprite.png)
 
-![blocks_1546522278_5630958](images/blocks_1546522278_5630958.png)
+```blocks
+define animate
+show
+wait (1) secs
+hide
+```
 --- /task ---
 
 --- task ---
@@ -64,7 +92,15 @@ Then add the `animate`{:class="blockmoreblocks"} block below both of the `switch
 
 ![Result sprite](images/result-sprite.png)
 
-![blocks_1546522280_1253438](images/blocks_1546522280_1253438.png)
+```blocks
+    when I receive [correct v]
+    switch costume to [tick v]
+    animate:: custom
+
+    when I receive [wrong v]
+    switch costume to [cross v]
+    animate:: custom
+```
 
 --- /task ---
 
@@ -81,7 +117,15 @@ Instead of `showing`{:class="blocklooks"} and `hiding`{:class="blocklooks"} the 
 
 ![Result sprite](images/result-sprite.png)
 
-![blocks_1546522281_7313058](images/blocks_1546522281_7313058.png)
+```blocks
+	define animate
+	set [ghost v] effect to (100)
+	show
+	repeat (25)
+		change [ghost v] effect by (-4)
+	end
+	hide
+```
 --- /task ---
 
 Can you improve the animation of the 'tick' or 'cross' graphics? You could add code to make the costumes fade out as well, or you could use other cool effects:
