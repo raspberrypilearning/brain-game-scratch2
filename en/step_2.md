@@ -32,7 +32,11 @@ Add code to your character sprite to set both of the `variables`{:class="blockda
 
 ![screenshot](images/giga-sprite.png)
 
-![blocks_1546522254_2720623](images/blocks_1546522254_2720623.png)
+```blocks
+	when flag clicked
+	set [number 1 v] to (pick random (2) to (12))
+	set [number 2 v] to (pick random (2) to (12))
+```
 
 --- /task ---
 
@@ -41,7 +45,17 @@ Add code to `ask`{:class="blocksensing"} the player for the answer, and then `sa
 
 ![screenshot](images/giga-sprite.png)
 
-![blocks_1546522255_8593645](images/blocks_1546522255_8593645.png)
+```blocks
+when flag clicked
+set [number 1 v] to (pick random (2) to (12))
+set [number 2 v] to (pick random (2) to (12))
++ ask (join (number 1)(join [ x ] (number 2))) and wait
++ if <(answer) = ((number 1)*(number 2))> then
+    say [yes! :)] for (2) secs
+else
+    say [no :(] for (2) secs
+end
+```
 --- /task ---
 
 --- task ---
@@ -63,11 +77,26 @@ You need to add a `forever`{:class="blockcontrol"} block, and put all of the cod
 --- hint ---
 Here is the block you need:
 
-![blocks_1546522257_464972](images/blocks_1546522257_464972.png)
+```blocks
+forever
+end
+```
 --- /hint ---
 --- hint ---
 Here is what your code should look like:
-![blocks_1546522259_067407](images/blocks_1546522259_067407.png)
+```blocks
+	when flag clicked
++    forever
+    	set [number 1 v] to (pick random (2) to (12))
+    	set [number 2 v] to (pick random (2) to (12))
+    	ask (join (number 1)(join [ x ] (number 2))) and wait
+    	if <(answer) = ((number 1)*(number 2))> then
+    		say [yes! :)] for (2) secs
+    	else
+    		say [no :(] for (2) secs
+    	end
+    end
+```
 --- /hint ---
 --- /hints ---
 
